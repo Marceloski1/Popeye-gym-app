@@ -17,7 +17,8 @@ export function CTASection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Comienza Tu Transformación Hoy</h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Únete a la familia Popeye Gym y descubre tu potencial. Tu mejor versión te está esperando.
+            Únete a la familia en Popeye Gym. <span className="font-bold"
+            >Helping ugly people have sex since 2011</span> 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="#contact">
