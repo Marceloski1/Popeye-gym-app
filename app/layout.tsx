@@ -7,16 +7,15 @@ import { Navigation } from "@/components/navigation"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Popeye Gym - Tercer Mejor Gimnasio en La Habana 2025",
+  title: "La Spinaca de Popeye - Mejor Gimnasio en La Habana 2025",
   description:
-    "El gimnasio Popeye ofrece las mejores instalaciones y entrenadores certificados en La Habana. Horario de 6:30 AM a 8 PM de lunes a viernes.",
-  keywords: "gimnasio, La Habana, fitness, entrenamiento, Popeye Gym",
+    "El gimnasio La Spinaca de Popeye ofrece las mejores instalaciones y entrenadores en La Habana. Horario de 6:30 AM a 8 PM de lunes a viernes.",
+  keywords: "gimnasio, La Habana, fitness, entrenamiento, La Spinaca de Popeye, Popeye Gyn , La Spinaca de Popeye Gym",
   openGraph: {
-    title: "Popeye Gym - Tercer Mejor Gimnasio en La Habana",
-    description: "El mejor gimnasio para alcanzar tus metas fitness",
+    title: "La Spinaca de Popeye- Tercer Mejor Gimnasio en La Habana",
+    description: "El mejor gimnasio para alcanzar tus metas fitness y ser un tanke",
     type: "website",
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
