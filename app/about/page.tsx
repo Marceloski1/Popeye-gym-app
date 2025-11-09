@@ -6,7 +6,7 @@ import { MapSection } from "@/components/about/map-section"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros | Popeye Gym",
+  title: "Sobre Nosotros | La Spinaca d' Popeye GYM",
   description: "Conoce la historia, misión y visión de Popeye Gym, el tercer mejor gimnasio de La Habana.",
 }
 

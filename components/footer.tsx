@@ -65,7 +65,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-[#5a8c3a] mt-0.5" />
-                <p className="text-gray-400">Calle Central , Vedado, La Habana, Cuba</p>
+                <p className="text-gray-400">Calle Central entre Túlipan y Conill, Vedado, La Habana, Cuba</p>
               </li>
             </ul>
           </div>

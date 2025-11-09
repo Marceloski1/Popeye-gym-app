@@ -17,7 +17,7 @@ export function MapSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Visítanos</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Estamos ubicados en el corazón de Vedado, La Habana
+            Estamos ubicados en el Vedado, La Habana
           </p>
         </motion.div>
 
@@ -26,7 +26,7 @@ export function MapSection() {
             <MapPin className="w-8 h-8 text-[#2d5016] mb-4" />
             <h3 className="font-bold text-lg mb-2">Dirección</h3>
             <p className="text-muted-foreground">
-              Calle 23 #456, Vedado
+              Calle Central entre Túlipan y Conill , Vedado
               <br />
               La Habana, Cuba
             </p>
@@ -36,9 +36,8 @@ export function MapSection() {
             <Phone className="w-8 h-8 text-[#2d5016] mb-4" />
             <h3 className="font-bold text-lg mb-2">Teléfono</h3>
             <p className="text-muted-foreground">
-              +53 5234-5678
+              +53 5254-1695
               <br />
-              +53 7834-1234
             </p>
           </Card>
 
@@ -53,32 +52,35 @@ export function MapSection() {
           </Card>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="w-full h-[450px] rounded-2xl overflow-hidden border border-border"
-        >
-          <iframe
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-82.38891601562501%2C23.12463878289048%2C-82.36282348632814%2C23.14106282717871&layer=mapnik&marker=23.132852046985495%2C-82.37586975097656"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            loading="lazy"
-            title="Ubicación de Popeye Gym"
-          />
-        </motion.div>
-        <div className="text-center mt-4">
-          <a
-            href="https://www.openstreetmap.org/?mlat=23.13285&mlon=-82.37587#map=16/23.13285/-82.37587"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#2d5016] hover:text-[#5a8c3a] font-medium"
-          >
-            Ver mapa más grande
-          </a>
-        </div>
+       
+      <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  className="w-full h-[450px] rounded-2xl overflow-hidden border border-border"
+>
+  <iframe
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-82.392404%2C23.111075%2C-82.386404%2C23.117075&layer=mapnik&marker=23.114075%2C-82.389404"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    loading="lazy"
+    title="Ubicación de La Spinaca d' Popeye Gym"
+  />
+</motion.div>
+
+     <p className="text-center mt-2 text-sm text-muted-foreground">
+  <a
+    href="https://www.openstreetmap.org/?mlat=23.114075&mlon=-82.389404#map=18/23.114075/-82.389404"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#2d5016] hover:text-[#5a8c3a] font-medium"
+  >
+    Ver mapa más grande
+  </a>
+</p>
+
       </div>
     </section>
   )

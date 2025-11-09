@@ -20,7 +20,7 @@ function Counter({ value, suffix }: { value: number | string; suffix: string }) 
 
     let start = 0
     const end = value
-    const duration = 2000
+    const duration = 1000
     const increment = end / (duration / 16)
    
     const timer = setInterval(() => {

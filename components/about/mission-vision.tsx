@@ -9,7 +9,7 @@ const values = [
     icon: Target,
     title: "Misión",
     description:
-      "Proporcionar un espacio de entrenamiento de clase mundial donde cada persona pueda transformar su cuerpo y mente, acompañados por profesionales dedicados y equipamiento de vanguardia.",
+      "Proporcionar un espacio de entrenamiento donde cada persona pueda transformar su cuerpo y mente, acompañados por profesionales dedicados y multitud de equipamiento de calidad.",
   },
   {
     icon: Eye,

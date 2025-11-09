@@ -31,7 +31,7 @@ export function HistorySection() {
                 orgullo son las historias de transformación de nuestros miembros.
               </p>
               <p>
-                Hoy contamos con más de 500 miembros activos, 15 entrenadores certificados y las mejores instalaciones
+                Hoy contamos con más de 200 miembros activos  y una de las mejores instalaciones
                 de la ciudad. Y esto es solo el comienzo.
               </p>
             </div>

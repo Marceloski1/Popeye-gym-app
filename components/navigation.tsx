@@ -28,7 +28,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-3">
             <div className="text-3xl">💪</div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-primary">POPEYE</span>
+              <span className="text-2xl font-bold text-primary">La Spinaca d' Popeye</span>
               <span className="text-xs text-muted-foreground">GYM</span>
             </div>
           </Link>
@@ -82,11 +82,7 @@ export function Navigation() {
                   {item.label}
                 </Link>
               ))}
-              <Link href="/admin" onClick={() => setIsOpen(false)}>
-                <Button variant="default" className="w-full bg-primary hover:bg-secondary">
-                  Admin
-                </Button>
-              </Link>
+           
             </div>
           </motion.div>
         )}
