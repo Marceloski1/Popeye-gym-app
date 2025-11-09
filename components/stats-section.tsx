@@ -5,13 +5,12 @@ import { useInView } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
 
 const stats = [
-  { value: 500, suffix: "+", label: "Miembros Activos" },
-  { value: 15, suffix: "+", label: "Entrenadores Certificados" },
-  { value: 10, suffix: "", label: "Años de Experiencia" },
-  { value: 98, suffix: "%", label: "Satisfacción de Clientes" },
+  { value: 200, suffix: "+", label: "Miembros Activos" },
+  { value: "+15", suffix: "", label: "Más de 15 años de Experiencia" },
+  { value: 94, suffix: "%", label: "Satisfacción de Clientes" },
 ]
 
-function Counter({ value, suffix }: { value: number; suffix: string }) {
+function Counter({ value, suffix }: { value: number | string; suffix: string }) {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
@@ -23,7 +22,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
     const end = value
     const duration = 2000
     const increment = end / (duration / 16)
-
+   
     const timer = setInterval(() => {
       start += increment
       if (start >= end) {
@@ -49,7 +48,7 @@ export function StatsSection() {
   return (
     <section className="py-20 bg-[#2d5016] text-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
