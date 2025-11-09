@@ -6,12 +6,12 @@ import { Dumbbell, Users, Trophy, Heart, Calendar, Zap } from "lucide-react"
 const features = [
   {
     icon: Dumbbell,
-    title: "Equipamiento Premium",
-    description: "Máquinas de última generación y pesas olímpicas para todos los niveles",
+    title: "Equipamiento de Calidad",
+    description: "Todo tipo de equipamientos y pesas olímpicas para todos los niveles",
   },
   {
     icon: Users,
-    title: "Entrenadores Certificados",
+    title: "Entrenadores Experimentados",
     description: "Profesionales con años de experiencia listos para ayudarte",
   },
   {
@@ -24,16 +24,6 @@ const features = [
     title: "Ambiente Motivador",
     description: "Comunidad de apoyo que te impulsa a dar lo mejor cada día",
   },
-  {
-    icon: Calendar,
-    title: "Horarios Flexibles",
-    description: "Abierto de 6:30 AM a 8 PM de lunes a viernes",
-  },
-  {
-    icon: Zap,
-    title: "Clases Grupales",
-    description: "Variedad de clases de cardio, funcional y más",
-  },
 ]
 
 export function FeaturesSection() {
@@ -45,7 +35,7 @@ export function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-16 "
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Por Qué Elegir Popeye Gym</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -53,7 +43,7 @@ export function FeaturesSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 place-items-center">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
@@ -61,7 +51,7 @@ export function FeaturesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-card p-8 rounded-xl border border-border hover:border-[#5a8c3a] transition-colors group"
+              className="bg-card p-8 rounded-xl border border-border hover:border-[#5a8c3a] transition-colors group w-[80%]"
             >
               <div className="w-14 h-14 bg-[#2d5016] rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#5a8c3a] transition-colors">
                 <feature.icon className="w-7 h-7 text-white" />
