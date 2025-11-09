@@ -52,7 +52,7 @@ export function BMICalculator() {
       category = "Obesidad"
       color = "#ef4444"
       recommendation =
-        "Es importante que consultes con profesionales de la salud. En Popeye Gym podemos diseñar un programa de entrenamiento adaptado a tus necesidades."
+        "Es importante que consultes con profesionales de la salud. Después de ir al doctor en La Spinaca d' Popeye Gym podemos diseñar un programa de entrenamiento adaptado a tus necesidades."
     }
 
     setResult({

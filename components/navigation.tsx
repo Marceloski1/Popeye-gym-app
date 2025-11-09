@@ -11,10 +11,8 @@ const navItems = [
   { label: "Sobre Nosotros", href: "/about" },
   { label: "Equipo", href: "/team" },
   { label: "Equipamiento", href: "/equipment" },
-  { label: "Galería", href: "/gallery" },
   { label: "Nutrición", href: "/nutrition" },
   { label: "IMC", href: "/bmi" },
-  { label: "Contacto", href: "#contact" },
 ]
 
 export function Navigation() {
@@ -44,11 +42,6 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/admin">
-              <Button variant="default" className="bg-primary hover:bg-secondary">
-                Admin
-              </Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}

@@ -147,4 +147,36 @@ export const mockNutritionMyths: NutritionMyth[] = [
       "Los carbohidratos son la principal fuente de energía para entrenamientos intensos. Eliminarlos puede reducir tu rendimiento y recuperación muscular.",
     isMyth: true,
   },
+   {
+    id: "5",
+    myth: "Dormir bien favorece la pérdida de grasa y el crecimiento muscular",
+    truth: "El descanso es tan importante como el entrenamiento o la dieta",
+    explanation:
+      "Durante el sueño profundo se liberan hormonas anabólicas como la testosterona y la hormona del crecimiento. Dormir poco eleva el cortisol y dificulta la quema de grasa.",
+    isMyth: false,
+  },
+   {
+    id: "6",
+    myth: "El pan y las pastas engordan",
+    truth: "El pan y las pastas integrales pueden ser parte de una dieta equilibrada",
+    explanation:
+      "Lo que causa aumento de peso es el exceso calórico, no un alimento específico. Los cereales integrales aportan energía, fibra y micronutrientes esenciales.",
+    isMyth: true,
+  },
+  {
+    id: "7",
+    myth: "El entrenamiento con pesas ayuda a acelerar el metabolismo",
+    truth: "Aumentar masa muscular eleva el gasto calórico incluso en reposo",
+    explanation:
+      "El tejido muscular consume más energía que el tejido graso. Por eso, entrenar fuerza no solo mejora la estética sino también la eficiencia metabólica a largo plazo.",
+    isMyth: false,
+  },
+    {
+    id: "8",
+    myth: "Hacer ayuno intermitente destruye el músculo",
+    truth: "El ayuno intermitente no destruye músculo si la ingesta total de proteínas y calorías es adecuada",
+    explanation:
+      "El cuerpo usa grasa como fuente de energía durante el ayuno, no músculo, siempre que la nutrición y el entrenamiento estén bien estructurados.",
+    isMyth: true,
+  },
 ]

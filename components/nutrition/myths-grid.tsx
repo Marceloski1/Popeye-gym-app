@@ -24,7 +24,7 @@ export function MythsGrid() {
             </p>
           </motion.div>
 
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 space-y-6 space-x-3">
             {mockNutritionMyths.map((item, index) => (
               <motion.div
                 key={item.id}
@@ -81,18 +81,6 @@ export function MythsGrid() {
             transition={{ duration: 0.6 }}
             className="mt-12"
           >
-            <Card className="p-8 bg-[#2d5016] text-white text-center">
-              <h3 className="text-2xl font-bold mb-4">¿Tienes Dudas sobre Nutrición?</h3>
-              <p className="text-white/90 mb-6 leading-relaxed">
-                Nuestros entrenadores certificados pueden ayudarte a crear un plan nutricional personalizado
-              </p>
-              <a
-                href="#contact"
-                className="inline-block bg-[#ff6b35] hover:bg-[#e55a2b] text-white px-8 py-3 rounded-lg font-semibold transition-colors"
-              >
-                Contáctanos
-              </a>
-            </Card>
           </motion.div>
         </div>
       </div>
