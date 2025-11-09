@@ -4,7 +4,7 @@
 
 **Tercer mejor gimnasio en La Habana 2025**
 
-Sitio web oficial del Gimnasio Popeye, desarrollado con Next.js 16, React 19.2, Material UI y Framer Motion.
+Sitio web oficial del Gimnasio La espinaca de Popeye, desarrollado con Next.js 16, React 19.2 (Se cambió a React 18.3 en el package json por problemas de despligue), Material UI y Framer Motion.
 
 ## Características
 
@@ -20,8 +20,8 @@ Sitio web oficial del Gimnasio Popeye, desarrollado con Next.js 16, React 19.2, 
 ## Tecnologías
 
 - **Framework**: Next.js 16.0 con App Router
-- **React**: 19.2 con Canary Features (useEffectEvent, Activity)
-- **UI**: Material UI (componentes shadcn/ui) + Framer Motion
+- **React**: 18.3 con Canary Features (useEffectEvent, Activity)
+- **UI**: Material UI (componentes shadcn/ui) + Framer Motion (Se cambió a React 18.3 en el package json por problemas de despligue)
 - **Estilos**: Tailwind CSS v4 con diseño mobile-first
 - **TypeScript**: Type safety completo
 - **Estado**: SWR para client-side data fetching y caching
@@ -35,7 +35,7 @@ Sitio web oficial del Gimnasio Popeye, desarrollado con Next.js 16, React 19.2, 
 
 \`\`\`bash
 # Clonar el repositorio
-git clone <tu-repositorio>
+git clone https://github.com/Marceloski1/Popeye-gym-app
 
 # Instalar dependencias
 npm install
@@ -46,24 +46,6 @@ npm run dev
 
 Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## Despliegue
-
-### Cloudflare Pages (Recomendado - Configuración Actual)
-
-Ver guía completa en [DEPLOYMENT.md](DEPLOYMENT.md)
-
-**Resumen rápido:**
-1. Conecta tu repo a Cloudflare Pages
-2. Framework preset: Next.js
-3. Build command: `npm run build`
-4. Node version: 20
-
-### Vercel (Alternativa)
-
-\`\`\`bash
-npm i -g vercel
-vercel
-\`\`\`
 
 ## Estructura del Proyecto
 
@@ -98,18 +80,10 @@ popeye-gym-website/
 
 \`\`\`
 
-## Datos Mock
-
-El proyecto utiliza datos de ejemplo (mock data) para demostración. En producción, considera integrar:
-
-- Base de datos (Supabase, Neon, PostgreSQL)
-- CMS (Contentful, Sanity, Strapi)
-- API REST o GraphQL propia
-
 ## Personalización
 
 ### Colores
-Los colores de la marca Popeye están definidos en `app/globals.css`:
+Los colores de la marca La espinaca de Popeye están definidos en `app/globals.css`:
 - Verde corporativo primario: `#2D7A3E`
 - Verde oscuro: `#1B4D2A`
 - Naranja acento: `#FF6B35`
@@ -118,26 +92,3 @@ Los colores de la marca Popeye están definidos en `app/globals.css`:
 - Headings: Inter (bold, extrabold)
 - Body: Inter (regular, medium)
 
-Configuradas en `app/layout.tsx` y `app/globals.css`
-
-## Información del Gimnasio
-
-**Gimnasio Popeye**
-- Dirección: Calle 23 #456, Vedado, La Habana, Cuba
-- Teléfono: +53 7 123 4567
-- Email: info@popeyegym.cu
-- Horario: Lunes a Viernes 6:30 AM - 8:00 PM
-
-## Licencia
-
-© 2025 Gimnasio Popeye. Todos los derechos reservados.
-
-## Soporte
-
-Para preguntas o soporte:
-- Email: info@popeyegym.cu
-- Teléfono: +53 7 123 4567
-
----
-
-Desarrollado con Next.js 16 y React 19.2

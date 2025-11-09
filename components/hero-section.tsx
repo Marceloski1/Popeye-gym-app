@@ -28,7 +28,7 @@ export function HeroSection() {
           >
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm mb-6">
               <Trophy className="w-4 h-4 text-[#ff6b35]" />
-              <span>Tercer Mejor Gimnasio en La Habana 2025</span>
+              <span>Tercer Mejor Gimnasio en La Habana</span>
             </div>
           </motion.div>
 
@@ -38,7 +38,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
           >
-            Fuerte Como
+            Fuerte como
             <span className="block text-[#ff6b35]">POPEYE</span>
           </motion.h1>
 
@@ -48,7 +48,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed"
           >
-            Transforma tu cuerpo con las mejores instalaciones y entrenadores certificados de La Habana
+            Transforma tu cuerpo con las mejores instalaciones y entrenadores de La Habana
           </motion.p>
 
           <motion.div
@@ -82,30 +82,12 @@ export function HeroSection() {
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5 text-[#ff6b35]" />
               <span className="text-sm">Lunes a Viernes</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Dumbbell className="w-5 h-5 text-[#ff6b35]" />
               <span className="text-sm">6:30 AM - 8:00 PM</span>
             </div>
+            
           </motion.div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
-            className="w-1.5 h-1.5 bg-white rounded-full"
-          />
-        </div>
-      </motion.div>
     </section>
   )
 }
