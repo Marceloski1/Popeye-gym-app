@@ -90,27 +90,27 @@ export const mockTestimonials: Testimonial[] = [
     name: "Ana María López",
     role: "Miembro desde 2023",
     content:
-      "Popeye Gym transformó mi vida. Los entrenadores son increíbles y las instalaciones de primera clase. He perdido 15kg y nunca me sentí mejor.",
+      "El Popeye transformó mi vida. Los entrenadores son increíbles y las instalaciones de primera clase.",
     image: "/happy-woman-fitness-client.jpg",
     rating: 5,
   },
   {
     id: "2",
-    name: "Roberto Pérez",
-    role: "Miembro desde 2022",
+    name: "XXXXXXX",
+    role: "Miembro desde 20XXXXXX",
     content:
-      "El mejor gimnasio de La Habana sin duda. Ambiente motivador, equipo de última generación y staff profesional. Totalmente recomendado.",
+      "El mejor gimnasio de La Habana sin duda con muy buen Ambiente motivador y entrenadores que te tienen paciencia, Totalmente recomendado.",
     image: "/satisfied-male-gym-member.jpg",
     rating: 5,
   },
   {
     id: "3",
-    name: "Laura Martínez",
-    role: "Miembro desde 2024",
+    name: "XXXXXXXX",
+    role: "Miembro desde 20XXXXXX",
     content:
-      "Como principiante tenía miedo de ir al gimnasio, pero aquí me recibieron con los brazos abiertos. Los entrenadores son pacientes y motivadores.",
+      "xxxxxxxxxxxx",
     image: "/young-woman-gym-beginner-happy.jpg",
-    rating: 5,
+    rating: 4,
   },
 ]
 

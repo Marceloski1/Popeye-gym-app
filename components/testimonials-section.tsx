@@ -17,7 +17,7 @@ export function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Lo Que Dicen Nuestros Miembros</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Lo Que Dicen Nuestros Clientes</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">Historias reales de transformación y éxito</p>
         </motion.div>
 
