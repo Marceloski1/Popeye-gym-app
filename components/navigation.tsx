@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 const navItems = [
   { label: "Inicio", href: "/" },
   { label: "Sobre Nosotros", href: "/about" },
-  { label: "Equipo", href: "/team" },
+ // { label: "Equipo", href: "/team" },
   { label: "Equipamiento", href: "/equipment" },
   { label: "Nutrición", href: "/nutrition" },
   { label: "IMC", href: "/bmi" },

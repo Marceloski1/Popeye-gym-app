@@ -26,11 +26,11 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <Link href="/about" className="text-gray-400 hover:text-[#5a8c3a] transition-colors">
                   Sobre Nosotros
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/team" className="text-gray-400 hover:text-[#5a8c3a] transition-colors">
                   Nuestro Equipo

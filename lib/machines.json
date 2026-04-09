@@ -1,0 +1,307 @@
+[
+  {
+    "nombre": "Press de pecho en máquina",
+    "grupo_muscular_principal": "Pecho",
+    "musculos_secundarios": ["Tríceps", "Hombros anteriores"],
+    "descripcion": "Máquina guiada para empujar peso al frente.",
+    "para_que_sirve": "Desarrollar fuerza en el pecho.",
+    "beneficios": "Seguridad y estabilidad.",
+    "que_musculo_desarrolla": "Pectoral mayor",
+    "ejercicios_posibles": ["Press de pecho"],
+    "variaciones": ["Unilateral", "Agarre cerrado", "Agarre amplio"]
+  },
+  {
+    "nombre": "Press de pecho convergente en máquina",
+    "grupo_muscular_principal": "Pecho",
+    "musculos_secundarios": ["Tríceps", "Hombros"],
+    "descripcion": "Movimiento convergente natural.",
+    "para_que_sirve": "Simular movimiento libre.",
+    "beneficios": "Mayor activación muscular.",
+    "que_musculo_desarrolla": "Pectoral mayor",
+    "ejercicios_posibles": ["Press convergente"],
+    "variaciones": ["Unilateral"]
+  },
+  {
+    "nombre": "Pec Deck",
+    "grupo_muscular_principal": "Pecho",
+    "musculos_secundarios": ["Hombro anterior"],
+    "descripcion": "Aperturas controladas.",
+    "para_que_sirve": "Aislar el pecho.",
+    "beneficios": "Alta contracción.",
+    "que_musculo_desarrolla": "Pectoral mayor",
+    "ejercicios_posibles": ["Aperturas"],
+    "variaciones": ["Reverse"]
+  },
+  {
+    "nombre": "Press inclinado en máquina",
+    "grupo_muscular_principal": "Pecho superior",
+    "musculos_secundarios": ["Tríceps", "Hombros"],
+    "descripcion": "Press en ángulo inclinado.",
+    "para_que_sirve": "Trabajar parte superior.",
+    "beneficios": "Mejora estética.",
+    "que_musculo_desarrolla": "Pectoral superior",
+    "ejercicios_posibles": ["Press inclinado"],
+    "variaciones": ["Unilateral"]
+  },
+
+  {
+    "nombre": "Lat Pulldown",
+    "grupo_muscular_principal": "Espalda",
+    "musculos_secundarios": ["Bíceps"],
+    "descripcion": "Jalón vertical.",
+    "para_que_sirve": "Amplitud de espalda.",
+    "beneficios": "Fortalece dorsales.",
+    "que_musculo_desarrolla": "Dorsales",
+    "ejercicios_posibles": ["Jalón"],
+    "variaciones": ["Agarres múltiples"]
+  },
+  {
+    "nombre": "Remo sentado en máquina",
+    "grupo_muscular_principal": "Espalda",
+    "musculos_secundarios": ["Bíceps"],
+    "descripcion": "Tracción horizontal.",
+    "para_que_sirve": "Grosor de espalda.",
+    "beneficios": "Mejora postura.",
+    "que_musculo_desarrolla": "Romboides",
+    "ejercicios_posibles": ["Remo"],
+    "variaciones": ["Unilateral"]
+  },
+  {
+    "nombre": "Jalón alto independiente",
+    "grupo_muscular_principal": "Espalda",
+    "musculos_secundarios": ["Bíceps"],
+    "descripcion": "Movimiento independiente por brazo.",
+    "para_que_sirve": "Corregir desequilibrios.",
+    "beneficios": "Trabajo unilateral.",
+    "que_musculo_desarrolla": "Dorsales",
+    "ejercicios_posibles": ["Pulldown unilateral"],
+    "variaciones": ["Alternado"]
+  },
+
+  {
+    "nombre": "Prensa de piernas",
+    "grupo_muscular_principal": "Piernas",
+    "musculos_secundarios": ["Glúteos", "Femorales"],
+    "descripcion": "Empuje de plataforma.",
+    "para_que_sirve": "Fuerza en piernas.",
+    "beneficios": "Seguro.",
+    "que_musculo_desarrolla": "Cuádriceps",
+    "ejercicios_posibles": ["Prensa"],
+    "variaciones": ["Unilateral", "Pies altos/bajos"]
+  },
+  {
+    "nombre": "Extensión de piernas",
+    "grupo_muscular_principal": "Cuádriceps",
+    "musculos_secundarios": [],
+    "descripcion": "Extensión de rodilla.",
+    "para_que_sirve": "Aislar cuádriceps.",
+    "beneficios": "Alta activación.",
+    "que_musculo_desarrolla": "Cuádriceps",
+    "ejercicios_posibles": ["Extensión"],
+    "variaciones": ["Unilateral"]
+  },
+  {
+    "nombre": "Máquina Hack Squat",
+    "grupo_muscular_principal": "Piernas",
+    "musculos_secundarios": ["Glúteos"],
+    "descripcion": "Sentadilla guiada.",
+    "para_que_sirve": "Fuerza en piernas.",
+    "beneficios": "Menor carga lumbar.",
+    "que_musculo_desarrolla": "Cuádriceps",
+    "ejercicios_posibles": ["Hack squat"],
+    "variaciones": ["Pies altos"]
+  },
+  {
+    "nombre": "Pendulum squat",
+    "grupo_muscular_principal": "Piernas",
+    "musculos_secundarios": ["Glúteos"],
+    "descripcion": "Movimiento pendular.",
+    "para_que_sirve": "Trabajo profundo.",
+    "beneficios": "Gran rango.",
+    "que_musculo_desarrolla": "Cuádriceps",
+    "ejercicios_posibles": ["Pendulum"],
+    "variaciones": []
+  },
+
+  {
+    "nombre": "Curl femoral sentado",
+    "grupo_muscular_principal": "Femorales",
+    "musculos_secundarios": ["Glúteos"],
+    "descripcion": "Flexión sentado.",
+    "para_que_sirve": "Aislar femorales.",
+    "beneficios": "Seguro.",
+    "que_musculo_desarrolla": "Isquiotibiales",
+    "ejercicios_posibles": ["Curl"],
+    "variaciones": ["Unilateral"]
+  },
+  {
+    "nombre": "Curl femoral acostado",
+    "grupo_muscular_principal": "Femorales",
+    "musculos_secundarios": [],
+    "descripcion": "Flexión acostado.",
+    "para_que_sirve": "Trabajar femorales.",
+    "beneficios": "Aislamiento total.",
+    "que_musculo_desarrolla": "Isquiotibiales",
+    "ejercicios_posibles": ["Curl"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Curl femoral de pie",
+    "grupo_muscular_principal": "Femorales",
+    "musculos_secundarios": [],
+    "descripcion": "Curl individual.",
+    "para_que_sirve": "Trabajo unilateral.",
+    "beneficios": "Corrige desequilibrios.",
+    "que_musculo_desarrolla": "Isquiotibiales",
+    "ejercicios_posibles": ["Curl"],
+    "variaciones": ["Unilateral"]
+  },
+
+  {
+    "nombre": "Máquina de patada de glúteo",
+    "grupo_muscular_principal": "Glúteos",
+    "musculos_secundarios": [],
+    "descripcion": "Extensión de cadera.",
+    "para_que_sirve": "Activar glúteo.",
+    "beneficios": "Aislamiento.",
+    "que_musculo_desarrolla": "Glúteo mayor",
+    "ejercicios_posibles": ["Kickback"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Hip thrust",
+    "grupo_muscular_principal": "Glúteos",
+    "musculos_secundarios": ["Femorales"],
+    "descripcion": "Elevación de cadera.",
+    "para_que_sirve": "Desarrollar glúteos.",
+    "beneficios": "Alta activación.",
+    "que_musculo_desarrolla": "Glúteo mayor",
+    "ejercicios_posibles": ["Hip thrust"],
+    "variaciones": ["Unilateral"]
+  },
+  {
+    "nombre": "Máquina abductora",
+    "grupo_muscular_principal": "Glúteos",
+    "musculos_secundarios": [],
+    "descripcion": "Separación de piernas.",
+    "para_que_sirve": "Glúteo medio.",
+    "beneficios": "Estabilidad.",
+    "que_musculo_desarrolla": "Glúteo medio",
+    "ejercicios_posibles": ["Abducción"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Máquina aductora",
+    "grupo_muscular_principal": "Aductores",
+    "musculos_secundarios": [],
+    "descripcion": "Cierre de piernas.",
+    "para_que_sirve": "Trabajar aductores.",
+    "beneficios": "Equilibrio.",
+    "que_musculo_desarrolla": "Aductores",
+    "ejercicios_posibles": ["Aducción"],
+    "variaciones": []
+  },
+
+  {
+    "nombre": "Calf raise",
+    "grupo_muscular_principal": "Pantorrillas",
+    "musculos_secundarios": [],
+    "descripcion": "Elevación de talones.",
+    "para_que_sirve": "Trabajar pantorrillas.",
+    "beneficios": "Resistencia.",
+    "que_musculo_desarrolla": "Gemelos",
+    "ejercicios_posibles": ["Elevaciones"],
+    "variaciones": ["Sentado", "De pie"]
+  },
+
+  {
+    "nombre": "Shoulder Press",
+    "grupo_muscular_principal": "Hombros",
+    "musculos_secundarios": ["Tríceps"],
+    "descripcion": "Empuje vertical.",
+    "para_que_sirve": "Desarrollar hombros.",
+    "beneficios": "Estabilidad.",
+    "que_musculo_desarrolla": "Deltoide",
+    "ejercicios_posibles": ["Press"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Reverse Pec Deck",
+    "grupo_muscular_principal": "Hombros",
+    "musculos_secundarios": ["Espalda"],
+    "descripcion": "Apertura inversa.",
+    "para_que_sirve": "Trabajar deltoide posterior.",
+    "beneficios": "Mejora postura.",
+    "que_musculo_desarrolla": "Deltoide posterior",
+    "ejercicios_posibles": ["Reverse fly"],
+    "variaciones": []
+  },
+
+  {
+    "nombre": "Curl predicador",
+    "grupo_muscular_principal": "Bíceps",
+    "musculos_secundarios": [],
+    "descripcion": "Curl con soporte.",
+    "para_que_sirve": "Aislar bíceps.",
+    "beneficios": "Control.",
+    "que_musculo_desarrolla": "Bíceps",
+    "ejercicios_posibles": ["Curl"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Fondos asistidos",
+    "grupo_muscular_principal": "Tríceps",
+    "musculos_secundarios": ["Pecho"],
+    "descripcion": "Dips asistidos.",
+    "para_que_sirve": "Fortalecer tríceps.",
+    "beneficios": "Accesible.",
+    "que_musculo_desarrolla": "Tríceps",
+    "ejercicios_posibles": ["Dips"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Cable crossover",
+    "grupo_muscular_principal": "Full body",
+    "musculos_secundarios": ["Todos"],
+    "descripcion": "Sistema de poleas.",
+    "para_que_sirve": "Ejercicios múltiples.",
+    "beneficios": "Versatilidad.",
+    "que_musculo_desarrolla": "Variable",
+    "ejercicios_posibles": ["Cruces", "Curl", "Extensiones"],
+    "variaciones": ["Altura polea"]
+  },
+
+  {
+    "nombre": "Elevación de piernas en máquina",
+    "grupo_muscular_principal": "Core",
+    "musculos_secundarios": ["Cadera"],
+    "descripcion": "Elevación controlada.",
+    "para_que_sirve": "Abdomen inferior.",
+    "beneficios": "Fortalece core.",
+    "que_musculo_desarrolla": "Abdominales",
+    "ejercicios_posibles": ["Leg raises"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Máquina de abdominales inclinados",
+    "grupo_muscular_principal": "Core",
+    "musculos_secundarios": [],
+    "descripcion": "Crunch inclinado.",
+    "para_que_sirve": "Trabajar abdomen.",
+    "beneficios": "Aislamiento.",
+    "que_musculo_desarrolla": "Recto abdominal",
+    "ejercicios_posibles": ["Crunch"],
+    "variaciones": []
+  },
+  {
+    "nombre": "Silla romana asistida",
+    "grupo_muscular_principal": "Core",
+    "musculos_secundarios": ["Espalda baja"],
+    "descripcion": "Soporte para abdomen.",
+    "para_que_sirve": "Ejercicios abdominales.",
+    "beneficios": "Versátil.",
+    "que_musculo_desarrolla": "Core",
+    "ejercicios_posibles": ["Elevaciones"],
+    "variaciones": []
+  }
+]

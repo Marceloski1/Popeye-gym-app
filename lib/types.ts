@@ -34,3 +34,32 @@ export interface NutritionMyth {
   explanation: string
   isMyth: boolean
 }
+
+
+export type GrupoMuscular =
+  | "Pecho"
+  | "Espalda"
+  | "Piernas"
+  | "Cuádriceps"
+  | "Femorales"
+  | "Glúteos"
+  | "Aductores"
+  | "Pantorrillas"
+  | "Hombros"
+  | "Bíceps"
+  | "Tríceps"
+  | "Core"
+  | "Full body";
+
+export interface MaquinaGym {
+  nombre: string;
+  grupo_muscular_principal: GrupoMuscular;
+  musculos_secundarios: string[];
+  descripcion: string;
+  para_que_sirve: string;
+  beneficios: string;
+  que_musculo_desarrolla: string;
+  ejercicios_posibles: string[];
+  variaciones: string[];
+  imagen?: string;
+}

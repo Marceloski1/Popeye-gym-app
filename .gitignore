@@ -39,3 +39,8 @@ next-env.d.ts
 # cloudflare
 .wrangler
 wrangler.toml
+
+.agents
+.qwen
+
+skils-lock.json
