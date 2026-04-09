@@ -28,7 +28,7 @@ export function GalleryHero() {
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Galería</h1>
-          <p className="text-xl text-white/90 leading-relaxed">Explora nuestras instalaciones de clase mundial</p>
+          <p className="text-xl text-white/90 leading-relaxed">Explora nuestras instalaciones</p>
         </motion.div>
       </div>
     </section>

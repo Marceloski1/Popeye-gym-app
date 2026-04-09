@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Galería | Popeye Gym",
-  description: "Explora nuestras instalaciones de clase mundial a través de nuestra galería de fotos.",
+  description: "Explora nuestras instalaciones a través de nuestra galería de fotos.",
 }
 
 export default function GalleryPage() {

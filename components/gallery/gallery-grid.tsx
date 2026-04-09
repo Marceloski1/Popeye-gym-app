@@ -2,96 +2,150 @@
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const galleryImages = [
   {
     id: "1",
-    url: "/placeholder.svg?height=600&width=800&key=gym1",
-    category: "Cardio",
-    title: "Área de Cardio",
-    description: "Zona equipada con las últimas cintas y bicicletas",
+    url: "/images-gym/gym-1.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Espacio amplio y moderno para tu entrenamiento",
   },
   {
     id: "2",
-    url: "/placeholder.svg?height=600&width=800&key=gym2",
-    category: "Pesas",
-    title: "Zona de Pesas Libres",
-    description: "Área completa con mancuernas y barras olímpicas",
+    url: "/images-gym/gym-2.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Equipamiento de primera calidad",
   },
   {
     id: "3",
-    url: "/placeholder.svg?height=600&width=800&key=gym3",
-    category: "Pesas",
-    title: "Máquinas de Fuerza",
-    description: "Equipamiento profesional para todos los grupos musculares",
+    url: "/images-gym/gym-3.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Área de entrenamiento especializada",
   },
   {
     id: "4",
-    url: "/placeholder.svg?height=600&width=800&key=gym4",
-    category: "Clases Grupales",
-    title: "Sala de Clases",
-    description: "Espacio amplio para clases de spinning, yoga y más",
+    url: "/images-gym/gym-4.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Zona de máquinas y pesos",
   },
   {
     id: "5",
-    url: "/placeholder.svg?height=600&width=800&key=gym5",
-    category: "Cardio",
-    title: "Remos y Elípticas",
-    description: "Variedad de equipos para entrenamiento cardiovascular",
+    url: "/images-gym/gym-5.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Espacio diseñado para tu comodidad",
   },
   {
     id: "6",
-    url: "/placeholder.svg?height=600&width=800&key=gym6",
-    category: "Pesas",
-    title: "Área de Sentadillas",
-    description: "Racks profesionales con plataformas de levantamiento",
+    url: "/images-gym/gym-6.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Ambiente profesional y motivador",
   },
   {
     id: "7",
-    url: "/placeholder.svg?height=600&width=800&key=gym7",
-    category: "Clases Grupales",
-    title: "Estudio de Spinning",
-    description: "Bicicletas de última generación para clases intensas",
+    url: "/images-gym/gym-7.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Equipos de última generación",
   },
   {
     id: "8",
-    url: "/placeholder.svg?height=600&width=800&key=gym8",
-    category: "Cardio",
-    title: "Vista General Cardio",
-    description: "Amplias instalaciones con ventilación de primera",
+    url: "/images-gym/gym-8.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Instalaciones amplias y ventiladas",
   },
   {
     id: "9",
-    url: "/placeholder.svg?height=600&width=800&key=gym9",
-    category: "Pesas",
-    title: "Área de Entrenamiento",
-    description: "Espacio diseñado para entrenamientos personalizados",
+    url: "/images-gym/gym-9.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Todo lo que necesitas para entrenar",
+  },
+  {
+    id: "10",
+    url: "/images-gym/gym-10.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Tu gimnasio de confianza",
+  },
+  {
+    id: "11",
+    url: "/images-gym/gym-11.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Equipamiento profesional",
+  },
+  {
+    id: "12",
+    url: "/images-gym/gym-12.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Espacio de entrenamiento integral",
+  },
+  {
+    id: "13",
+    url: "/images-gym/gym-13.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Instalaciones de primer nivel",
+  },
+  {
+    id: "14",
+    url: "/images-gym/gym-14.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Gimnasio completamente equipado",
+  },
+  {
+    id: "15",
+    url: "/images-gym/gym-15.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "La mejor experiencia de entrenamiento",
+  },
+  {
+    id: "16",
+    url: "/images-gym/gym-16.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Tu segundo hogar para entrenar",
+  },
+  {
+    id: "17",
+    url: "/images-gym/gym-17.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description: "Popeye Gym - Donde comienza tu transformación",
+  },
+  {
+    id: "17",
+    url: "/images-gym/gym-18.jpeg",
+    category: "Instalaciones",
+    title: "Nuestras Instalaciones",
+    description:"Tu gimnasio de confianza",
   },
 ]
 
 export function GalleryGrid() {
-  const [selectedCategory, setSelectedCategory] = useState<string>("Todos")
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
-
-  const categories = ["Todos", ...Array.from(new Set(galleryImages.map((img) => img.category)))]
-
-  const filteredImages =
-    selectedCategory === "Todos" ? galleryImages : galleryImages.filter((img) => img.category === selectedCategory)
 
   const handlePrevious = () => {
     if (selectedImage === null) return
-    const currentIndex = galleryImages.findIndex((img) => img.id === galleryImages[selectedImage].id)
-    const newIndex = currentIndex > 0 ? currentIndex - 1 : galleryImages.length - 1
+    const newIndex = selectedImage > 0 ? selectedImage - 1 : galleryImages.length - 1
     setSelectedImage(newIndex)
   }
 
   const handleNext = () => {
     if (selectedImage === null) return
-    const currentIndex = galleryImages.findIndex((img) => img.id === galleryImages[selectedImage].id)
-    const newIndex = currentIndex < galleryImages.length - 1 ? currentIndex + 1 : 0
+    const newIndex = selectedImage < galleryImages.length - 1 ? selectedImage + 1 : 0
     setSelectedImage(newIndex)
   }
 
@@ -99,23 +153,9 @@ export function GalleryGrid() {
     <>
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          {/* Filter Buttons */}
-          <div className="flex flex-wrap gap-3 justify-center mb-12">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                variant={selectedCategory === category ? "default" : "outline"}
-                className={selectedCategory === category ? "bg-[#2d5016] hover:bg-[#5a8c3a]" : ""}
-              >
-                {category}
-              </Button>
-            ))}
-          </div>
-
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredImages.map((image, index) => (
+            {galleryImages.map((image, index) => (
               <motion.div
                 key={image.id}
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -123,7 +163,7 @@ export function GalleryGrid() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 className="relative aspect-video rounded-xl overflow-hidden cursor-pointer group"
-                onClick={() => setSelectedImage(galleryImages.findIndex((img) => img.id === image.id))}
+                onClick={() => setSelectedImage(index)}
               >
                 <Image
                   src={image.url || "/placeholder.svg"}

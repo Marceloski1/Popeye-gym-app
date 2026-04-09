@@ -11,6 +11,7 @@ const navItems = [
   { label: "Sobre Nosotros", href: "/about" },
  // { label: "Equipo", href: "/team" },
   { label: "Equipamiento", href: "/equipment" },
+  { label: "Galería", href: "/gallery" },
   { label: "Nutrición", href: "/nutrition" },
   { label: "IMC", href: "/bmi" },
 ]
