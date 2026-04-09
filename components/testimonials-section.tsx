@@ -30,9 +30,10 @@ export function TestimonialsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Card className="p-8 h-full hover:shadow-lg transition-shadow">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="relative w-16 h-16 rounded-full overflow-hidden bg-muted">
+              <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="p-8">
+                  {/* Image - Centered Portrait */}
+                  <div className="relative w-40 h-65 mx-auto mb-6 rounded-xl overflow-hidden bg-gradient-to-br from-[#2d5016]/10 to-[#5a8c3a]/10">
                     <Image
                       src={testimonial.image || "/placeholder.svg"}
                       alt={testimonial.name}
@@ -40,17 +41,25 @@ export function TestimonialsSection() {
                       className="object-cover"
                     />
                   </div>
-                  <div>
-                    <h4 className="font-bold text-foreground">{testimonial.name}</h4>
+
+                  {/* Stars */}
+                  <div className="flex justify-center gap-1 mb-4">
+                    {Array.from({ length: testimonial.rating }).map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-[#ff6b35] text-[#ff6b35]" />
+                    ))}
+                  </div>
+
+                  {/* Quote */}
+                  <p className="text-muted-foreground leading-relaxed mb-6 text-center italic">
+                    "{testimonial.content}"
+                  </p>
+
+                  {/* Author Info */}
+                  <div className="text-center pt-4 border-t border-border">
+                    <h4 className="font-bold text-foreground text-lg mb-1">{testimonial.name}</h4>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
                   </div>
                 </div>
-                <div className="flex gap-1 mb-4">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-[#ff6b35] text-[#ff6b35]" />
-                  ))}
-                </div>
-                <p className="text-muted-foreground leading-relaxed">"{testimonial.content}"</p>
               </Card>
             </motion.div>
           ))}

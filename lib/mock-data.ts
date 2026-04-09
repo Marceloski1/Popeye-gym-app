@@ -87,29 +87,29 @@ export const mockEquipment: Equipment[] = [
 export const mockTestimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Ana María López",
-    role: "Miembro desde 2023",
+    name: "Judit",
+    role: "Miembro desde 2025",
     content:
       "El Popeye transformó mi vida. Los entrenadores son increíbles y las instalaciones de primera clase.",
-    image: "/happy-woman-fitness-client.jpg",
+    image: "/testimonial/testimonial-1.jpeg",
     rating: 5,
   },
   {
     id: "2",
-    name: "XXXXXXX",
-    role: "Miembro desde 20XXXXXX",
+    name: "Mira",
+    role: "Miembro desde 2026",
     content:
-      "El mejor gimnasio de La Habana sin duda con muy buen Ambiente motivador y entrenadores que te tienen paciencia, Totalmente recomendado.",
-    image: "/satisfied-male-gym-member.jpg",
+      "El mejor gimnasio de La Habana sin duda con muy buen Ambiente motivador y entrenadores que te tienen paciencia",
+    image: "testimonial/testimonial-2.jpeg",
     rating: 5,
   },
   {
     id: "3",
-    name: "XXXXXXXX",
-    role: "Miembro desde 20XXXXXX",
+    name: "Roberto",
+    role: "Miembro desde 2024",
     content:
-      "xxxxxxxxxxxx",
-    image: "/young-woman-gym-beginner-happy.jpg",
+      "Llevaba años intentando ponerme en forma sin éxito hasta que conocí al equipo de Popeye.",
+    image: "testimonial/testimonial-3.jpeg",
     rating: 4,
   },
 ]
