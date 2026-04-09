@@ -5,16 +5,21 @@ import Image from "next/image"
 
 export function HistorySection() {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold text-foreground mb-6">Nuestra Historia</h2>
+            <div className="inline-flex items-center gap-2 bg-[#5a8c3a]/10 px-4 py-2 rounded-full text-[#5a8c3a] text-sm font-medium mb-6">
+              <span>Nuestra Historia</span>
+            </div>
+            <h2 className="text-4xl font-bold text-foreground mb-8" style={{ textWrap: "balance" }}>
+              Más de 10 Años de Trayectoria
+            </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 Fundado en 2015, Popeye Gym nació de una visión clara: crear un espacio donde cada persona, sin importar
@@ -22,7 +27,7 @@ export function HistorySection() {
               </p>
               <p>
                 Inspirados en la fortaleza y determinación del icónico marinero Popeye, creamos un gimnasio que combina
-                equipamiento de vanguardia con un ambiente motivador y familiar. Nuestro lema "Fuerte como Popeye" no es
+                equipamiento de vanguardia con un ambiente motivador y familiar. Nuestro lema {"\""}Fuerte como Popeye{"\""} no es
                 solo una frase, es un compromiso con cada miembro.
               </p>
               <p>
@@ -31,7 +36,7 @@ export function HistorySection() {
                 orgullo son las historias de transformación de nuestros miembros.
               </p>
               <p>
-                Hoy contamos con más de 200 miembros activos  y una de las mejores instalaciones
+                Hoy contamos con más de 200 miembros activos y una de las mejores instalaciones
                 de la ciudad. Y esto es solo el comienzo.
               </p>
             </div>
@@ -42,9 +47,14 @@ export function HistorySection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative h-[500px] rounded-2xl overflow-hidden"
+            className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl"
           >
-            <Image src="/modern-gym-interior.png" alt="Interior del gimnasio Popeye" fill className="object-cover" />
+            <Image 
+              src="/modern-gym-interior.png" 
+              alt="Interior del gimnasio Popeye Gym mostrando equipamiento moderno" 
+              fill 
+              className="object-cover"
+            />
           </motion.div>
         </div>
       </div>

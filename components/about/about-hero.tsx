@@ -5,7 +5,7 @@ import { Trophy } from "lucide-react"
 
 export function AboutHero() {
   return (
-    <section className="relative py-20 bg-gradient-to-br from-[#2d5016] via-[#3d6820] to-[#5a8c3a] text-white overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-br from-[#2d5016] via-[#3d6820] to-[#5a8c3a] text-white overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div
           className="absolute inset-0"
@@ -22,13 +22,15 @@ export function AboutHero() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm mb-6">
-            <Trophy className="w-4 h-4 text-[#ff6b35]" />
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm font-medium mb-8">
+            <Trophy className="w-4 h-4 text-[#ff6b35]" aria-hidden="true" />
             <span>Tercer Mejor Gimnasio en La Habana 2025</span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Sobre Popeye Gym</h1>
-          <p className="text-xl text-white/90 leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6" style={{ textWrap: "balance" }}>
+            Sobre Popeye Gym
+          </h1>
+          <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
             Más de una década transformando vidas a través del fitness y la dedicación
           </p>
         </motion.div>
