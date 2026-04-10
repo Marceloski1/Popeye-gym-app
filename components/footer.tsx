@@ -73,7 +73,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#5a8c3a] mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <p className="text-gray-400">
-                  Calle Central entre Túlipan y Conill
+                  Boyeros entre Túlipan y Conill
                   <br />
                   Vedado, La Habana, Cuba
                 </p>
@@ -87,7 +87,11 @@ export function Footer() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex justify-between">
                 <span>Lunes – Viernes</span>
-                <span className="text-[#5a8c3a] font-medium">6:30 AM – 8:00 PM</span>
+                <div className="flex flex-col">
+ <              span className="text-[#5a8c3a] ">6:30 AM – 1:00 PM</span>
+                <span className="text-[#5a8c3a]">3:30 PM – 9:00 PM</span>
+                </div>
+               
               </li>
               <li className="flex justify-between">
                 <span>Sábado – Domingo</span>

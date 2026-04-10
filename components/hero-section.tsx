@@ -84,7 +84,10 @@ export function HeroSection() {
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-3 rounded-lg">
               <Clock className="w-5 h-5 text-[#ff6b35]" />
               <span className="text-sm font-medium">Lunes a Viernes</span>
-              <span className="text-sm">6:30 AM – 8:00 PM</span>
+             <div className="flex flex-col">
+ <              span className="text-[#5a8c3a] ">6:30 AM – 1:00 PM</span>
+                <span className="text-[#5a8c3a]">3:30 PM – 9:00 PM</span>
+                </div>
             </div>
           </motion.div>
         </div>

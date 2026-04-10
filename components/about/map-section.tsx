@@ -34,7 +34,7 @@ export function MapSection() {
             </div>
             <h3 className="font-bold text-lg mb-2 text-foreground">Dirección</h3>
             <p className="text-muted-foreground">
-              Calle Central entre Túlipan y Conill
+              Boyeros Central entre Túlipan y Conill
               <br />
               Vedado, La Habana, Cuba
             </p>
@@ -58,8 +58,11 @@ export function MapSection() {
             <p className="text-muted-foreground">
               Lunes a Viernes
               <br />
-              6:30 AM – 8:00 PM
             </p>
+             <div className="flex flex-col">
+ <              span className="text-[#5a8c3a] ">6:30 AM – 1:00 PM</span>
+                <span className="text-[#5a8c3a]">3:30 PM – 9:00 PM</span>
+                </div>
           </Card>
         </div>
 
